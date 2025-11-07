@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 🎉</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <div id="hearts"></div>
+
+  <div class="container">
+    <section class="hero">
+      <div class="left">
+        <h1>Happy Birthday <span class="name">Gunjan 💖</span></h1>
+        <p class="subtitle">You make the world more beautiful ✨</p>
+        <button id="openSurprise" class="btn primary">Open Surprise 🎁</button>
+        <button id="toggleMusic" class="btn">Pause Music ⏸️</button>
+      </div>
+
+      <div class="right">
+        <img src="assets/photo1.jpg" class="heart-photo" alt="Photo">
+      </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Our Memories 📸</h2>
+      <div class="grid">
+        <img src="assets/photo2.jpg" class="gimg" alt="">
+        <img src="assets/photo3.jpg" class="gimg" alt="">
+        <img src="assets/photo4.jpg" class="gimg" alt="">
+      </div>
+    </section>
+
+    <section class="letter">
+      <div class="card">
+        <p>You're special, sweet, and the reason behind my smile 💕</p>
+        <p class="from">~ From Shaurya 😘</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- ✅ Background Music -->
+  <audio id="bgMusic">
+    <source src="assets/music.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- ✅ Surprise Modal -->
+  <div id="surpriseModal" class="modal hidden">
+    <div class="modal-content">
+      <button class="close-btn close">✖</button>
+
+      <h2 class="surprise-title">Happy Birthday My Cutu 💞</h2>
+      <p class="surprise-message">
+        Every moment spent with you is the most beautiful gift of my life.<br>
+        You are my smile, my peace, my everything.  
+        Today is special because YOU are special.  
+        I love you more than words can ever say ❤️✨
+      </p>
+
+      <div class="heart-animation" id="heartsContainer"></div>
+
+      <div class="cake">
+          <div class="base"></div>
+          <div class="icing"></div>
+          <div class="candles">
+              <div class="candle"></div>
+              <div class="candle"></div>
+              <div class="candle"></div>
+          </div>
+      </div>
+
+      <p style="text-align:center;margin:15px 0;">
+        You deserve all the love, happiness & roses 🌹
+      </p>
+
+      <div class="gift-row">
+          <div class="gift">🎀</div>
+          <div class="gift">🌹</div>
+          <div class="gift">💝</div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
